@@ -16,6 +16,7 @@ export const OurTeamContent=styled.div`
     }
 `;
 export const CardsContainer = styled.div`
+    margin:3rem ;
     display: flex;
     //grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
     gap:1rem; 
