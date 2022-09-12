@@ -19,14 +19,14 @@ const Header=()=>{
                     </div>
                     <ul className='menu'>
                         <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Our projects</a></li>
-                        <li><a href="">Our team</a></li>
-                        <li><a href="">Happy clients</a></li>
-                        <li><a href="">Price</a></li>
-                        <li><a href="">Some facts</a></li>
-                        <li><a href="">Contacts us</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#ourProjects">Our projects</a></li>
+                        <li><a href="#ourTeam">Our team</a></li>
+                        <li><a href="happyClients">Happy clients</a></li>
+                        <li><a href="price">Price</a></li>
+                        <li><a href="someFacts">Some facts</a></li>
+                        <li><a href="contactUs">Contacts us</a></li>
                     </ul>
                 </C.NavContainer>
             </C.Container>

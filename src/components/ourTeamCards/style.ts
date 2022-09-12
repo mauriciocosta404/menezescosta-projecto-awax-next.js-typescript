@@ -21,4 +21,7 @@ export const Container=styled.div`
         justify-content: center;
         margin: 0 .3rem;
     }
+    .icon:first-child{
+        background-color: #B28756 ;
+    }
 `;

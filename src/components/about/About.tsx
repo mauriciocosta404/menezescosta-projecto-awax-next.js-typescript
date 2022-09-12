@@ -5,7 +5,7 @@ import Button from '../button/button';
 
 const About=()=>{
     return(
-        <C.SectionContainer>
+        <C.SectionContainer id='about'>
             <div className='title'>
                 <h2>ABOUT US</h2>
                 <span>WHO WE ARE?</span>

@@ -6,7 +6,7 @@ import { OurTeamMock } from '../mock/cardsMock';
 
 const OurTeam=()=>{
     return(
-        <C.Container>
+        <C.Container id='ourTeam'>
                 <C.OurTeamContent>
                     <div className='title'>
                         <h2>OUR TEAM</h2>

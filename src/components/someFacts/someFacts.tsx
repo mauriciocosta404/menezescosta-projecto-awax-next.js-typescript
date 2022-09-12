@@ -2,7 +2,7 @@ import * as C from './style';
 
 const SomeFacts = () => {
     return (
-        <C.Container>
+        <C.Container id='someFacts'>
             <div className='title'>
                 <h2>SOME FACTS</h2>
                 <span>ABOUT OUR WORK</span>

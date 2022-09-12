@@ -7,7 +7,7 @@ import message from '../../../images/balao.png';
 
 const ServicesContent=()=>{
     return(
-        <C.Container>
+        <C.Container id='services'>
             <div className='title'>
                 <h2>SERVICES</h2>
                 <span>SERVICES THAT WE PROVIDE</span>

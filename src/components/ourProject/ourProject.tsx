@@ -5,7 +5,7 @@ import Button from '../button/button';
 
 const OurProject=()=>{
     return(
-        <C.Container>
+        <C.Container id='ourProjects'>
             <div className='title'>
                 <h2>OUR PROJECTS</h2>
                 <span>WHAT WE CREATE</span>
