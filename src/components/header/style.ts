@@ -43,7 +43,7 @@ export const Banner = styled.div`
     height: 90vh;
     >div{
        
-        background: url('../../../images/bg.jpg');
+       // background: url('../../../images/bg.jpg');
         position: absolute;
         top: 3.6rem;left:0;right:0;bottom:0;
         background-color   :rgba(0,0,0,0.8) ;

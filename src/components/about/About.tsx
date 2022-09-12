@@ -23,7 +23,7 @@ const About=()=>{
                     <Button name='LEARN MORE'/>
                 </div>
                 <div >
-                    <Image className='imageContainer' src={aboutImage} width={400} height={250}></Image>
+                    <Image className='imageContainer' src={aboutImage} width={400} height={250} alt=''></Image>
                 </div>
             </C.ContentContainer>
         </C.SectionContainer>
