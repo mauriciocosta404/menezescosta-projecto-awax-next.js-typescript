@@ -3,6 +3,7 @@ import Head from 'next/head'
 import About from '../src/components/about/About'
 import ServicesContent from '../src/components/servicesContent/servicesContent';
 import OurProject from '../src/components/ourProject/ourProject';
+import SomeFacts from '../src/components/someFacts/someFacts';
 
 const Home: NextPage = () => {
 
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
     <About></About>
     <ServicesContent></ServicesContent>
     <OurProject></OurProject>
+    <SomeFacts></SomeFacts>
    </>
   )
 }
