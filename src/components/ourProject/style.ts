@@ -18,6 +18,7 @@ export const Container=styled.section`
             list-style-type: none;
             display: flex;
             justify-content: center;
+            flex-wrap:wrap ;
             border: 1px solid #ccc;
             width: max-content;
             padding:.1rem;

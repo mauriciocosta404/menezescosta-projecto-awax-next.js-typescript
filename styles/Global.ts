@@ -18,9 +18,33 @@ export const GlobalStyle=createGlobalStyle`
         border: none;
     }
     section{
-        padding: 2rem 15% ;
+        padding: 2rem 12% ;
     }
     section:nth-child(even){
         background-color: #eee;
+    }
+    .bar{
+        display: none;
+    }
+
+    @media (max-width:768px){
+        html{
+            font-size: 80.6%;
+        }
+        nav .menu{
+            display: none;
+        }
+        section{
+            padding: 1rem 10%;
+        }
+        .bar{
+            display: block;
+            cursor: pointer;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 3rem;
+        }
     }
 `;

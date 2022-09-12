@@ -13,6 +13,7 @@ export const SectionContainer=styled.section`
 export const ContentContainer= styled.div`
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
     div{
         text-align: justify;
         font-size: 1.1rem;

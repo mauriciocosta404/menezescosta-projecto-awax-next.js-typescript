@@ -3,18 +3,21 @@ import Image from 'next/image';
 import banner from '../../../images/bg.jpg';
 import Logo from '../../../images/medalha.png';
 import Button from '../button/button';
-
+import menuBar from '../../../images/menu.png';
 
 const Header=()=>{
     return(
         <>
-            <C.Container>
+            <C.Container className='header'>
                 <div>
                     <Image width={35} height={35} src={Logo} alt='logo'></Image>
                     Awax
                 </div>
                 <C.NavContainer>
-                    <ul>
+                    <div className='bar'>
+                        <Image src={menuBar} alt=''></Image>
+                    </div>
+                    <ul className='menu'>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Services</a></li>

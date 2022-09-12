@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 
-
-export const Container = styled.div`
+export const Container = styled.header`
 
     >div{
         color:#B28756;
