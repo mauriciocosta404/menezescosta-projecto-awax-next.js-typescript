@@ -22,10 +22,10 @@ export const Services=styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    >div{
+    .service{
         padding: 2rem;
-        border-left: #ccc solid .6px;
-        border-right: #ccc solid .6px;
+        //border-left: #ccc solid .6px;
+        //border-right: #ccc solid .6px;
         width: max-content;
         max-width: 15rem;
         text-align: center;

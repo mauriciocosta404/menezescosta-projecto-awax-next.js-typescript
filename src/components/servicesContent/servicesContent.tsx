@@ -13,22 +13,22 @@ const ServicesContent=()=>{
                 <span>SERVICES THAT WE PROVIDE</span>
             </div>
             <C.Services>
-                <div>
+                <div className='service'>
                     <Image src={medalia} alt='medalha'/>
                     <div className='name'>HIGH QUALITY DESIGN</div>
                     <small>Lorem ipsum dolor sit amet consectetur </small>
                 </div>
-                <div>
+                <div className='service'>
                     <Image src={estrela} alt='medalha' />
                     <div className='name'>MODERN DESIGN</div>
                     <small>Lorem ipsum dolor sit amet consectetur </small>
-                </div>
-                <div>
+                </div >
+                <div className='service'>
                     <Image src={relogio} alt='medalha' />
                     <div className='name'>REGULAR UPDATES</div>
                     <small>Lorem ipsum dolor sit amet consectetur </small>
                 </div>
-                <div>
+                <div className='service'>
                     <Image src={message} alt='medalha' />
                     <div className='name'>FAST AND FREE SUPPORT</div>
                     <small>Lorem ipsum dolor sit amet consectetur </small>

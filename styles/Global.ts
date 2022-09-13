@@ -40,6 +40,10 @@ export const GlobalStyle=createGlobalStyle`
         nav .menu{
             display: none;
         }
+        //.service{
+          //  border-left: none;
+          //  border-right: none;
+        //}
          .menu-mobile{
             display: block;
             a{
@@ -52,7 +56,7 @@ export const GlobalStyle=createGlobalStyle`
             position: absolute;
             right: 0;top:5.4rem;bottom:0;
             background-color   :rgba(0,0,0,0.8) ;
-            font-size:1.7rem;
+            font-size:1.6rem;
             padding: 2.8rem;
             width:23rem;
             li{
