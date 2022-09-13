@@ -1,12 +1,20 @@
 import styled from "styled-components";
 
+interface showMenuProps{
+    showMenu: boolean;
+}
+
+export const MainContainer=styled.div`
+    .menu-mobile{
+        display: ${({showMenu}:showMenuProps)=>showMenu?'block':'none'};
+    }
+`;
 
 export const Container = styled.header`
-
+    
     >div{
         color:#B28756;
         display: flex;
-        //flex-direction: column;
         font-weight: 600;
         align-items: center;
         gap: .5rem;
@@ -42,8 +50,6 @@ export const NavContainer=styled.nav`
 export const Banner = styled.div`
     height: 90vh;
     >div{
-       
-       // background: url('../../../images/bg.jpg');
         position: absolute;
         top: 3.6rem;left:0;right:0;bottom:0;
         background-color   :rgba(0,0,0,0.8) ;
