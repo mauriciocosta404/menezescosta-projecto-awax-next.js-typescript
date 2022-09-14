@@ -6,6 +6,7 @@ import OurProject from '../src/components/ourProject/ourProject';
 import SomeFacts from '../src/components/someFacts/someFacts';
 import OurTeam from '../src/components/ourTeam/ourTeam';
 import Mark from '../src/components/marks/marks';
+import HappyClients from '../src/components/happyClients/happyClients';
 
 const Home: NextPage = () => {
 
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
     <ServicesContent></ServicesContent>
     <OurProject></OurProject>
     <OurTeam></OurTeam>
+    <HappyClients></HappyClients>
     <Mark></Mark>
     <SomeFacts></SomeFacts>
 
