@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container=styled.div`
+    border-radius: .3rem;
    background-color: #fff;
    padding: 2rem;
    max-width: fit-content;

@@ -60,7 +60,7 @@ export const GlobalStyle=createGlobalStyle`
             padding: 2.8rem;
             width:23rem;
             li{
-                margin:1rem 0 ;
+                margin:0.8rem 0 ;
             }
         }
         section{

@@ -9,6 +9,11 @@ import { useState } from 'react';
 const Header=()=>{
 
     const [showMenu,setShowMenu]=useState(false);
+    //const [screen,setScreen]=useState<any>();
+    //const scr=()=>{
+      //  setScreen(window.screen);
+      //  console.log(screen);
+    //}
 
     return(
         <C.MainContainer showMenu={showMenu}>
