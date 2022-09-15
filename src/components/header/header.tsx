@@ -59,7 +59,7 @@ const Header=()=>{
                         <Button name='GET IN TOUCH!'/>
                     </div>
                 </div>
-                <Image src={banner} height={840} alt=''></Image>
+                <Image src={banner} height={815} alt=''></Image>
             </C.Banner>
         </C.MainContainer>
     )
