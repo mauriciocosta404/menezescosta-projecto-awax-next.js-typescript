@@ -11,7 +11,7 @@ const Price=()=>{
             </div>
             <C.Container>
                 {priceMock.map((item,key)=>(
-                    <PriceCards key={key} name={item.name} price={item.price}></PriceCards>
+                    <PriceCards key={key} name={item.name} price={item.price} color={item.color}></PriceCards>
                 ))}
             </C.Container>
         </C.MainContainer>

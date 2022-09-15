@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface cardProps{
+    color:string;
+}
+
 export const Container=styled.div`
     background-color: #fff;
     padding: 2rem 4rem;
@@ -16,7 +20,7 @@ export const Container=styled.div`
     }
     button{
         color: #fff;
-        background-color: #000;
+        background-color: ${({color}:cardProps)=>color};
         padding: .7rem 1.7rem;
         border-radius: 5rem;
         margin-top: 1rem;

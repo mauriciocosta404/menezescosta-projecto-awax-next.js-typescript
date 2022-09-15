@@ -3,11 +3,12 @@ import * as C from './style';
 interface cardProps{
     name:string;
     price:number;
+    color:string;
 }
 
-const PriceCards=({name,price}:cardProps)=>{
+const PriceCards=({name,price,color}:cardProps)=>{
     return(
-        <C.Container>
+        <C.Container color={color}>
             <span>{name}</span>
             <h2>$ {price}</h2>
             <small>/ MONTH</small>
