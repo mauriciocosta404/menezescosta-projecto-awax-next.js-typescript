@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color:#333;
+    background-color:#000;
     .title{
         text-align: center;
         h2{

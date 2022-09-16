@@ -8,6 +8,7 @@ import OurTeam from '../src/components/ourTeam/ourTeam';
 import Mark from '../src/components/marks/marks';
 import HappyClients from '../src/components/happyClients/happyClients';
 import Price from '../src/components/price/price';
+import Premium from '../src/components/premium/premium';
 
 const Home: NextPage = () => {
 
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
     <HappyClients></HappyClients>
     <Mark></Mark>
     <Price></Price>
+    <Premium></Premium>
     <SomeFacts></SomeFacts>
 
    </>
