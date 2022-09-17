@@ -9,6 +9,7 @@ import Mark from '../src/components/marks/marks';
 import HappyClients from '../src/components/happyClients/happyClients';
 import Price from '../src/components/price/price';
 import Premium from '../src/components/premium/premium';
+import SocialMedia from '../src/components/socialMedia/socialMedia';
 
 const Home: NextPage = () => {
 
@@ -28,7 +29,7 @@ const Home: NextPage = () => {
     <Price></Price>
     <Premium></Premium>
     <SomeFacts></SomeFacts>
-
+    <SocialMedia></SocialMedia>
    </>
   )
 }
