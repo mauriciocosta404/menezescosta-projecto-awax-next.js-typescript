@@ -9,7 +9,17 @@ import pinterest from '../../../images/pinterest.png';
 import googlePlus from '../../../images/googlePlus.png';
 import telefone from '../../../images/telefone.png';
 
-export const OurTeamMock=[
+interface OurTeamProps{
+    url:string | any,
+    name:string,
+    profetion:string,
+}
+
+interface IconsProps{
+    url:string | any;  
+}
+
+export const OurTeamMock:OurTeamProps[]=[
     {
         url:mulher1,
         name:'JANE DOE',
@@ -32,7 +42,7 @@ export const OurTeamMock=[
     }
 ];
 
-export const IconsCards=[
+export const IconsCards:IconsProps[]=[
     { url: twitter},
     { url: web },
     { url: linkedin },

@@ -5,7 +5,11 @@ import empresa4 from '../../../images/empresa4.png';
 import empresa5 from '../../../images/empresa5.png';
 import empresa6 from '../../../images/empresa6.png';
 
-export const marksMock=[
+interface MarkProps{
+    url:string | any;
+}
+
+export const marksMock:MarkProps[]=[
     {url : empresa1},
     { url: empresa2},
     { url: empresa3 },

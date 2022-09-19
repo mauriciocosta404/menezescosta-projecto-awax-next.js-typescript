@@ -1,4 +1,10 @@
-export const priceMock=[
+interface PriceProps{
+    name:string,
+    price:number,
+    color:string
+}
+
+export const priceMock:PriceProps[]=[
     {
         name:'EXPRESS',
         price:9.99,

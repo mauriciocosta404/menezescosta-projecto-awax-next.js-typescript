@@ -4,7 +4,12 @@ import linkedin from '../../../images/linkedin.png';
 import facebook from '../../../images/facebook.png';
 import googlePlus from '../../../images/googlePlus.png';
 
-export const SocialMediaMock=[
+interface SocialMediaProps{
+    url:string | any,
+    color:string
+}
+
+export const SocialMediaMock:SocialMediaProps[]=[
     {
         url:twiter,
         color:'#3dc8ff',    
