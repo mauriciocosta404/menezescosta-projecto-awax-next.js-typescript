@@ -10,6 +10,11 @@ import foto9 from "../../../images/foto9.jpg"
 import foto10 from "../../../images/foto10.jpg"
 import foto11 from "../../../images/foto11.png"
 import foto12 from "../../../images/foto12.png"
+import { StaticImageData } from "next/image"
+
+interface FotoProps{
+    url:string
+}
 
 export const FotoMock=[
         {
