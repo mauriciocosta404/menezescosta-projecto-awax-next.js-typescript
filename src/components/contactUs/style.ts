@@ -16,9 +16,20 @@ export const Container = styled.div`
     .input-container{
         margin: auto;
         max-width: 30rem;
-        
-        div{
 
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            input{
+                width: 13rem;
+            }
+        }
+        input{
+            width: 100%;
+        }
+        div{
+            margin-top: 1rem;
+            border: none;
         }
     }
 `;
